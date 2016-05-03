@@ -1,0 +1,47 @@
+﻿<Window x:Class="MegaCastingWPF.ClientsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Ajouter un client" Height="300" Width="300">
+    <Grid>
+        <!-- Fenetre pour ajouter un client -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+
+
+        <Grid Grid.Row="0" Margin="10" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="*"/>
+                
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Label Grid.Column="0" Grid.Row="0">Raison Social</Label>
+            <TextBox Grid.Column="1" Grid.Row="0" Text="{Binding Client.Raison_Social}" Margin="2"/>
+
+            <Label Grid.Column="0" Grid.Row="1">Siret</Label>
+            <TextBox Grid.Column="1" Grid.Row="1" Text="{Binding Client.Siret}" Margin="2"/>
+
+            <Label Grid.Column="0" Grid.Row="2">Adresse</Label>
+            <TextBox Grid.Column="1" Grid.Row="2" Text="{Binding Client.Adresse}" Margin="2"/>
+        </Grid>
+
+        <Border  Grid.Row="1">
+            <Button Padding="5" Margin="2" x:Name="btn_valider" Click="Validate_click">Ajouter le client</Button>
+        </Border>
+        
+        <Border  Grid.Row="2">
+            <Button Padding="5" Margin="2" x:Name="btn_ajouter" Click="Annuler_Click">Annuler</Button>
+        </Border>
+
+
+    </Grid>
+</Window>

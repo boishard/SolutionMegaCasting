@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MegaCastingWPF", "MegaCastingWPF\MegaCastingWPF.csproj", "{F6058700-B9EF-4DC9-9CA1-7B2C9A9DD042}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MegaCasting.DBLib", "MegaCasting.DBLib\MegaCasting.DBLib.csproj", "{6A7D60E2-8C5D-4D6A-A50A-C3AB33815F4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6058700-B9EF-4DC9-9CA1-7B2C9A9DD042}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6058700-B9EF-4DC9-9CA1-7B2C9A9DD042}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6058700-B9EF-4DC9-9CA1-7B2C9A9DD042}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6058700-B9EF-4DC9-9CA1-7B2C9A9DD042}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A7D60E2-8C5D-4D6A-A50A-C3AB33815F4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A7D60E2-8C5D-4D6A-A50A-C3AB33815F4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A7D60E2-8C5D-4D6A-A50A-C3AB33815F4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A7D60E2-8C5D-4D6A-A50A-C3AB33815F4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

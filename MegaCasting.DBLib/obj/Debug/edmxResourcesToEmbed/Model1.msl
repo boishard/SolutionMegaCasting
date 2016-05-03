@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MegaProductionModelStoreContainer" CdmEntityContainer="MegaProductionEntities2">
+    <EntitySetMapping Name="Clients">
+      <EntityTypeMapping TypeName="MegaProductionModel.Client">
+        <MappingFragment StoreEntitySet="Client">
+          <ScalarProperty Name="Identifiant" ColumnName="Identifiant" />
+          <ScalarProperty Name="Adresse" ColumnName="Adresse" />
+          <ScalarProperty Name="Raison_Social" ColumnName="Raison_Social" />
+          <ScalarProperty Name="Siret" ColumnName="Siret" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DomaineMetiers">
+      <EntityTypeMapping TypeName="MegaProductionModel.DomaineMetier">
+        <MappingFragment StoreEntitySet="DomaineMetier">
+          <ScalarProperty Name="Identifiant" ColumnName="Identifiant" />
+          <ScalarProperty Name="Libelle" ColumnName="Libelle" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Metiers">
+      <EntityTypeMapping TypeName="MegaProductionModel.Metier">
+        <MappingFragment StoreEntitySet="Metier">
+          <ScalarProperty Name="Identifiant" ColumnName="Identifiant" />
+          <ScalarProperty Name="Libelle" ColumnName="Libelle" />
+          <ScalarProperty Name="IdentifiantDomaineMetier" ColumnName="IdentifiantDomaineMetier" />
+          <ScalarProperty Name="DescriptionMetier" ColumnName="DescriptionMetier" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OffreCastings">
+      <EntityTypeMapping TypeName="MegaProductionModel.OffreCasting">
+        <MappingFragment StoreEntitySet="OffreCasting">
+          <ScalarProperty Name="Identifiant" ColumnName="Identifiant" />
+          <ScalarProperty Name="Intitulé" ColumnName="Intitulé" />
+          <ScalarProperty Name="Reference" ColumnName="Reference" />
+          <ScalarProperty Name="dateDebutPublication" ColumnName="dateDebutPublication" />
+          <ScalarProperty Name="dateDebutContrat" ColumnName="dateDebutContrat" />
+          <ScalarProperty Name="dureeDiffusion" ColumnName="dureeDiffusion" />
+          <ScalarProperty Name="nombreDePoste" ColumnName="nombreDePoste" />
+          <ScalarProperty Name="Localisation" ColumnName="Localisation" />
+          <ScalarProperty Name="DescriptionPoste" ColumnName="DescriptionPoste" />
+          <ScalarProperty Name="DescriptionProfilRecherche" ColumnName="DescriptionProfilRecherche" />
+          <ScalarProperty Name="IdentifiantTypeContrat" ColumnName="IdentifiantTypeContrat" />
+          <ScalarProperty Name="IdentifiantClient" ColumnName="IdentifiantClient" />
+          <ScalarProperty Name="IdentifiantMetier" ColumnName="IdentifiantMetier" />
+          <ScalarProperty Name="Coordonne" ColumnName="Coordonne" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PartenaireDiffusions">
+      <EntityTypeMapping TypeName="MegaProductionModel.PartenaireDiffusion">
+        <MappingFragment StoreEntitySet="PartenaireDiffusion">
+          <ScalarProperty Name="Identifiant" ColumnName="Identifiant" />
+          <ScalarProperty Name="MotDePasse" ColumnName="MotDePasse" />
+          <ScalarProperty Name="Mail" ColumnName="Mail" />
+          <ScalarProperty Name="Raison_Social" ColumnName="Raison_Social" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TypeContrats">
+      <EntityTypeMapping TypeName="MegaProductionModel.TypeContrat">
+        <MappingFragment StoreEntitySet="TypeContrat">
+          <ScalarProperty Name="Identifiant" ColumnName="Identifiant" />
+          <ScalarProperty Name="LibelleType" ColumnName="LibelleType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Utilisateurs">
+      <EntityTypeMapping TypeName="MegaProductionModel.Utilisateur">
+        <MappingFragment StoreEntitySet="Utilisateur">
+          <ScalarProperty Name="Identifiant" ColumnName="Identifiant" />
+          <ScalarProperty Name="MotDePasse" ColumnName="MotDePasse" />
+          <ScalarProperty Name="Nom" ColumnName="Nom" />
+          <ScalarProperty Name="Prenom" ColumnName="Prenom" />
+          <ScalarProperty Name="Mail" ColumnName="Mail" />
+          <ScalarProperty Name="IsClient" ColumnName="IsClient" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,521 @@
+﻿
+    <Window x:Class="MegaCastingWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Gestion de Mega Casting" Height="600" Width="600">
+    <Grid>
+
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+
+            <!-- Bouton sauvegarder -->
+            <Border  Grid.Row="1">
+                <Button Padding="5" x:Name="btn_sauvegarder" Click="Sauvegarder_Click" Margin="5">Sauvegarder</Button>
+            </Border>
+
+            <TabControl Grid.Row="0">
+
+                <!-- Client -->
+                <TabItem Header="Client">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="200"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Grid Grid.Column="0" Margin="5">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+
+                            <!-- Liste des clients -->
+                            <ListBox Grid.Row="0" ItemsSource="{Binding Clients}" x:Name="listClients" SelectionChanged="listClients_SelectionChanged">
+                                <ListBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <Label Content="{Binding Raison_Social}"/>
+                                    </DataTemplate>
+                                </ListBox.ItemTemplate>
+
+                            </ListBox>
+
+                            <!-- bouton ajout et suppression du client -->
+                            <Button Margin="2" Grid.Row="1" Click="AddClientButton_Click" >Ajouter le Client</Button>
+
+                            <Button Margin="2" Grid.Row="2" Click="DellClientButton_Click" >Supprimer le Client</Button>
+
+                        </Grid>
+
+                        <!-- toute les infos concernant le client (sur la droite) -->
+                        <Grid Grid.Column="1" Margin="10" x:Name="Grid_InfoClient">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="30"/>
+                                <RowDefinition Height="30"/>
+                                <RowDefinition Height="30"/>
+                                <RowDefinition Height="250"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+
+                            <Label Grid.Column="0" Grid.Row="0">Raison Social :</Label>
+                            <TextBox Grid.Column="1" Grid.Row="0" Text="{Binding ElementName=listClients, Path=SelectedItem.Raison_Social}" Margin="3"/>
+
+                            <Label Grid.Column="0" Grid.Row="1">Siret :</Label>
+                            <TextBox Grid.Column="1" Grid.Row="1" Text="{Binding ElementName=listClients, Path=SelectedItem.Siret}" Margin="3"/>
+
+                            <Label Grid.Column="0" Grid.Row="2">Adresse :</Label>
+                            <TextBox Grid.Column="1" Grid.Row="2" Text="{Binding ElementName=listClients, Path=SelectedItem.Adresse}" Margin="3"/>
+
+
+                            <!-- Grid pour afficher, ajouter et supprimer les offres rattachées au client -->
+                            <Grid Grid.Column="0" Grid.Row="3">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="auto"/>
+                                    <RowDefinition Height="auto"/>
+                                </Grid.RowDefinitions>
+
+                                <Label Grid.ColumnSpan="2" Grid.Row="0">Offre(s) de casting :</Label>
+
+                                <Border  Grid.Column="0" Grid.Row="1">
+                                    <Button Padding="5" Click="btnAddClientOffre" Margin="2">Ajouter</Button>
+                                </Border>
+
+                                <Border  Grid.Column="1" Grid.Row="1">
+                                    <Button Padding="5" Click="btnDellClientOffre" Margin="2">Supprimer</Button>
+                                </Border>
+                            </Grid>
+
+                            <!-- liste des offres, remplie par un algorithme -->
+                            <ListBox Grid.Column="1" Grid.Row="3" x:Name="ListBoxClientOffre" Margin="3">
+                                <ListBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <Label Content="{Binding Intitulé}"/>
+                                    </DataTemplate>
+                                </ListBox.ItemTemplate>
+
+                            </ListBox>
+                        </Grid>
+                    </Grid>
+                </TabItem>
+
+                <!-- Offre casting -->
+                <TabItem Header="Offre Casting">
+
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="200"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Grid Grid.Column="0" Margin="5">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+
+                            <!-- Liste des offres de castings -->
+                            <ListBox Grid.Row="0" ItemsSource="{Binding OffreCastings}" x:Name="listOffreCastings" SelectionChanged="listOffreCastings_SelectionChanged">
+                                <ListBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <Label Content="{Binding Intitulé}"/>
+                                    </DataTemplate>
+                                </ListBox.ItemTemplate>
+
+                            </ListBox>
+
+                            <Button Margin="2" Grid.Row="1" Click="AddOffreCastingButton_Click" >Ajouter une Offre de casting</Button>
+
+                            <Button Margin="2" Grid.Row="2" Click="DellOffreCastingButton_Click" >Supprimer l'Offre de casting</Button>
+
+                        </Grid>
+
+
+                        <!-- Toute les infos concernant l'offre de casting selectionnée -->
+                        <Grid Grid.Column="1" Margin="10" x:Name="Grid_InfoOffre">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="30"/>
+                                <RowDefinition Height="30"/>
+                                <RowDefinition Height="30"/>
+                                <RowDefinition Height="30"/>
+                                <RowDefinition Height="30"/>
+                                <RowDefinition Height="30"/>
+                                <RowDefinition Height="30"/>
+                                <RowDefinition Height="30"/>
+                                <RowDefinition Height="30"/>
+                                <RowDefinition Height="30"/>
+                                <RowDefinition Height="40"/>
+                                <RowDefinition Height="40"/>
+                                <RowDefinition Height="40"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+
+                            <Label Grid.Column="0" Grid.Row="0">Intitulé :</Label>
+                            <TextBox Grid.Column="1" Grid.Row="0" Text="{Binding ElementName=listOffreCastings, Path=SelectedItem.Intitulé}" Margin="3"/>
+
+                            <Label Grid.Column="0" Grid.Row="1">Référence :</Label>
+                            <TextBox Grid.Column="1" Grid.Row="1" Text="{Binding ElementName=listOffreCastings, Path=SelectedItem.Reference}" Margin="3"/>
+
+                            <Label Grid.Column="0" Grid.Row="2">Date de début de publication :</Label>
+                            <DatePicker Grid.Column="1" Grid.Row="2" SelectedDate="{Binding ElementName=listOffreCastings, Path=SelectedItem.dateDebutPublication}" Margin="3"/>
+
+                            <Label Grid.Column="0" Grid.Row="3">Date de début de contrat :</Label>
+                            <DatePicker Grid.Column="1" Grid.Row="3" SelectedDate="{Binding ElementName=listOffreCastings, Path=SelectedItem.dateDebutContrat}" Margin="3"/>
+
+                            <Label Grid.Column="0" Grid.Row="4">Durée de diffusion :</Label>
+                            <TextBox Grid.Column="1" Grid.Row="4" Text="{Binding ElementName=listOffreCastings, Path=SelectedItem.dureeDiffusion}" Margin="3"/>
+
+                            <Label Grid.Column="0" Grid.Row="5">Nombre de poste :</Label>
+                            <TextBox Grid.Column="1" Grid.Row="5" Text="{Binding ElementName=listOffreCastings, Path=SelectedItem.nombreDePoste}" Margin="3"/>
+
+                            <Label Grid.Column="0" Grid.Row="6">Localisation :</Label>
+                            <TextBox Grid.Column="1" Grid.Row="6" Text="{Binding ElementName=listOffreCastings, Path=SelectedItem.Localisation}" Margin="3"/>
+
+                            <Label Grid.Column="0" Grid.Row="7">Description de poste :</Label>
+                            <TextBox Grid.Column="1" Grid.Row="7" Text="{Binding ElementName=listOffreCastings, Path=SelectedItem.DescriptionPoste}" Margin="3"/>
+
+                            <Label Grid.Column="0" Grid.Row="8">Description du profil recherché :</Label>
+                            <TextBox Grid.Column="1" Grid.Row="8" Text="{Binding ElementName=listOffreCastings, Path=SelectedItem.DescriptionProfilRecherche}" Margin="3"/>
+
+                            <Label Grid.Column="0" Grid.Row="9">Coordonnée :</Label>
+                            <TextBox Grid.Column="1" Grid.Row="9" Text="{Binding ElementName=listOffreCastings, Path=SelectedItem.Coordonne}" Margin="3"/>
+
+                            <!-- Les combobox du client, du type de contrat et du métier a l'aquelle l'offre est rattachée.
+                            Elles sont remplies par un algorithme -->
+                            <Label Grid.Column="0" Grid.Row="10">Client :</Label>
+                            <ComboBox Grid.Column="1" Grid.Row="10" x:Name="ComboBoxOffreClient" SelectionChanged="ComboBoxOffreClient_SelectionChanged" Margin="3">
+                                <ComboBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <Label Content="{Binding Raison_Social}"/>
+                                    </DataTemplate>
+                                </ComboBox.ItemTemplate>
+                            </ComboBox>
+
+                            <Label Grid.Column="0" Grid.Row="11">Type de contrat :</Label>
+                            <ComboBox Grid.Column="1" Grid.Row="11" x:Name="ComboBoxOffreTypeContrat" SelectionChanged="ComboBoxOffreTypeContrat_SelectionChanged" Margin="3">
+                                <ComboBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <Label Content="{Binding LibelleType}"/>
+                                    </DataTemplate>
+                                </ComboBox.ItemTemplate>
+                            </ComboBox>
+
+                            <Label Grid.Column="0" Grid.Row="12">Métier :</Label>
+                            <ComboBox Grid.Column="1" Grid.Row="12" x:Name="ComboBoxOffreMetier" SelectionChanged="ComboBoxOffreMetier_SelectionChanged" Margin="3">
+                                <ComboBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <Label Content="{Binding Libelle}"/>
+                                    </DataTemplate>
+                                </ComboBox.ItemTemplate>
+                            </ComboBox>
+
+                        </Grid>
+                    </Grid>
+                </TabItem>
+
+                <!-- Type de contrat -->
+                <TabItem Header="Type de contrat">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="200"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Grid Grid.Column="0" Margin="5">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+
+                            <!-- Liste des types de contrats -->
+                            <ListBox Grid.Row="0" ItemsSource="{Binding TypeContrats}" x:Name="listTypeContrats" SelectionChanged="listTypeContrats_SelectionChanged">
+                                <ListBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <Label Content="{Binding LibelleType}"/>
+                                    </DataTemplate>
+                                </ListBox.ItemTemplate>
+
+                            </ListBox>
+
+                            <Button Margin="2" Grid.Row="1" Click="AddTypeContratButton_Click">Ajouter un type de contrat</Button>
+
+                            <Button Margin="2" Grid.Row="2" Click="DellTypeContratButton_Click" >Supprimer un type de contrat</Button>
+
+                        </Grid>
+
+
+                        <!-- Toute les infos concernants le type de contrat selectionné -->
+                        <Grid Grid.Column="1" Margin="10" x:Name="Grid_InfoTypeContrat">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="30"/>
+                                <RowDefinition Height="250"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+
+                            <Label Grid.Column="0" Grid.Row="0">Libelle :</Label>
+                            <TextBox Grid.Column="1" Grid.Row="0" Text="{Binding ElementName=listTypeContrats, Path=SelectedItem.LibelleType}" Margin="3"/>
+
+                            <!-- Grid pour afficher, ajouter et supprimer les offres de castings rattachées au type de contrat selectionné -->
+                            <Grid Grid.Column="0" Grid.Row="1">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="auto"/>
+                                    <RowDefinition Height="auto"/>
+                                </Grid.RowDefinitions>
+
+                                <Label Grid.ColumnSpan="2" Grid.Row="0">Offre(s) de casting :</Label>
+
+                                <Border  Grid.Column="0" Grid.Row="1">
+                                    <Button Padding="5" Margin="2" Click="AddTypeContratOffre">Ajouter</Button>
+                                </Border>
+
+                                <Border  Grid.Column="1" Grid.Row="1">
+                                    <Button Padding="5" Margin="2" Click="DellTypeContratOffre">Supprimer</Button>
+                                </Border>
+                            </Grid>
+
+                            <ListBox Grid.Column="1" Grid.Row="1" x:Name="ListBoxTypeContratOffre" Margin="3">
+                                <ListBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <Label Content="{Binding Intitulé}"/>
+                                    </DataTemplate>
+                                </ListBox.ItemTemplate>
+
+                            </ListBox>
+                        </Grid>
+                    </Grid>
+                </TabItem>
+
+                <!-- Metier -->
+                <TabItem Header="Métier">
+                    <Grid>
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid Grid.Row="0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="200"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Grid Grid.Column="0" Margin="5">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="auto"/>
+                                    <RowDefinition Height="auto"/>
+                                </Grid.RowDefinitions>
+
+                                <!-- liste des domaine métiers -->
+                                <ListBox Grid.Row="0" ItemsSource="{Binding DomaineMetiers}" x:Name="Listbox_DomaineMetiers" SelectionChanged="Listbox_DomaineMetier_SelectionChanged" >
+                                    <ListBox.ItemTemplate>
+                                        <DataTemplate>
+                                            <Label Content="{Binding Libelle}"/>
+                                        </DataTemplate>
+                                    </ListBox.ItemTemplate>
+
+                                </ListBox>
+
+                                <Button Margin="2" Grid.Row="1" Click="AddDomaineMetierButton_Click">Ajouter un domaine métier</Button>
+
+                                <Button Margin="2" Grid.Row="2" Click="DellDomaineMetierButton_Click" >Supprimer un domaine métier</Button>
+
+                            </Grid>
+
+
+                            <!-- Toutes les infos concernant le domaine métier selectionné -->
+                            <Grid Grid.Column="1" Margin="10" x:Name="Grid_InfoDomaineMetier">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="30"/>
+                                </Grid.RowDefinitions>
+
+                                <Label Grid.Column="0" Grid.Row="0">Libelle :</Label>
+                                <TextBox Grid.Column="1" Grid.Row="0" Text="{Binding ElementName=Listbox_DomaineMetiers, Path=SelectedItem.Libelle}" Margin="3"/>
+
+                            </Grid>
+                        </Grid>
+
+                        <Separator Grid.Row="1"/>
+
+                        <Grid Grid.Row="2" x:Name="Grid_Metier">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="200"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Grid Grid.Column="0" Margin="5">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="auto"/>
+                                    <RowDefinition Height="auto"/>
+                                </Grid.RowDefinitions>
+
+                                <!-- Liste des métier -->
+                                <ListBox Grid.Row="0" x:Name="Listbox_Metiers" SelectionChanged="Listbox_Metiers_SelectionChanged" >
+                                    <ListBox.ItemTemplate>
+                                        <DataTemplate>
+                                            <Label Content="{Binding Libelle}"/>
+                                        </DataTemplate>
+                                    </ListBox.ItemTemplate>
+
+                                </ListBox>
+
+                                <Button Margin="2" Grid.Row="1" Click="AddMetierButton_Click">Ajouter un métier</Button>
+
+                                <Button Margin="2" Grid.Row="2" Click="DellMetierButton_Click" >Supprimer un métier</Button>
+
+                            </Grid>
+
+                            <!-- Toutes les infos concernant le metier selectionné-->
+                            <Grid Grid.Column="1" Margin="10" x:Name="Grid_InfoMetier">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="30"/>
+                                    <RowDefinition Height="30"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+
+                                <Label Grid.Column="0" Grid.Row="0">Libelle :</Label>
+                                <TextBox Grid.Column="1" Grid.Row="0" Text="{Binding ElementName=Listbox_Metiers, Path=SelectedItem.Libelle}" Margin="3"/>
+
+                                <Label Grid.Column="0" Grid.Row="1">Description métier :</Label>
+                                <TextBox Grid.Column="1" Grid.Row="1" Text="{Binding ElementName=Listbox_Metiers, Path=SelectedItem.DescriptionMetier}" Margin="3"/>
+
+
+
+                                <!-- Liste des offres de castings rattachées au metier selectionné -->
+                                <Grid Grid.Column="0" Grid.Row="2">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="auto"/>
+                                        <RowDefinition Height="auto"/>
+                                    </Grid.RowDefinitions>
+
+
+                                    <Label Grid.ColumnSpan="2" Grid.Row="0">Offre(s) de casting :</Label>
+
+                                    <Border  Grid.Column="0" Grid.Row="1">
+                                        <Button Padding="5" Margin="2" Click="AddMetierOffre">Ajouter</Button>
+                                    </Border>
+
+                                    <Border  Grid.Column="1" Grid.Row="1">
+                                        <Button Padding="5" Margin="2" Click="DellMetierOffre">Supprimer</Button>
+                                    </Border>
+                                </Grid>
+
+                                <ListBox Grid.Column="1" Grid.Row="2" x:Name="Listbox_MetierOffre" Margin="3">
+                                    <ListBox.ItemTemplate>
+                                        <DataTemplate>
+                                            <Label Content="{Binding Intitulé}"/>
+                                        </DataTemplate>
+                                    </ListBox.ItemTemplate>
+
+                                </ListBox>
+                            </Grid>
+                        </Grid>
+
+                    </Grid>
+                </TabItem>
+
+                <!-- Partenaire de Diffusion -->
+                <TabItem Header="Partenaire de diffustion">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="200"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Grid Grid.Column="0" Margin="5">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+
+                            <!-- Liste des partenaires de diffusions -->
+                            <ListBox Grid.Row="0" ItemsSource="{Binding PartenaireDiffusions}" x:Name="listPartenaireDiffusions" SelectionChanged="listPartenaireDiffusions_SelectionChanged">
+                                <ListBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <Label Content="{Binding Raison_Social}"/>
+                                    </DataTemplate>
+                                </ListBox.ItemTemplate>
+
+                            </ListBox>
+
+                            <Button Margin="2" Grid.Row="1" Click="AddPartenaireDiffusionButton_Click">Ajouter un partenaire de diffusion</Button>
+
+                            <Button Margin="2" Grid.Row="2" Click="DellPartenaireDiffusionButton_Click" >Supprimer un partenaire de diffusion</Button>
+
+                        </Grid>
+
+                        <!-- Toutes les infos concernant le partenaire de diffusion selectionné -->
+                        <Grid Grid.Column="1" Margin="10" x:Name="Grid_InfoPartenaireDiffusion">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="30"/>
+                                <RowDefinition Height="30"/>
+                                <RowDefinition Height="30"/>
+                                <RowDefinition Height="30"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+
+                            <Label Grid.Column="0" Grid.Row="0">Raison social :</Label>
+                            <TextBox Grid.Column="1" Grid.Row="0" Margin="3" Text="{Binding ElementName=listPartenaireDiffusions, Path=SelectedItem.Raison_Social}"/>
+
+                            <Label Grid.Column="0" Grid.Row="1">Pseudo :</Label>
+                            <TextBox Grid.Column="1" Grid.Row="1" Margin="3" Text="{Binding ElementName=listPartenaireDiffusions, Path=SelectedItem.Pseudo}"/>
+
+                            <Label Grid.Column="0" Grid.Row="2">Mot de passe :</Label>
+                            <TextBox Grid.Column="1" Grid.Row="2" Margin="3" Text="{Binding ElementName=listPartenaireDiffusions, Path=SelectedItem.MotDePasse}"/>
+
+                            <Label Grid.Column="0" Grid.Row="3">Mail :</Label>
+                            <TextBox Grid.Column="1" Grid.Row="3" Margin="3" Text="{Binding ElementName=listPartenaireDiffusions, Path=SelectedItem.Mail}"/>
+
+                        </Grid>
+                    </Grid>
+                </TabItem>
+
+            </TabControl>
+        </Grid>
+    </Grid>
+</Window>

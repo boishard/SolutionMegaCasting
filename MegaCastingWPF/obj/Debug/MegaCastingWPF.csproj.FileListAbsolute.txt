@@ -1,0 +1,185 @@
+c:\users\thibault\documents\visual studio 2013\Projects\MegaCastingWPF\MegaCastingWPF\bin\Debug\MegaCastingWPF.exe.config
+c:\users\thibault\documents\visual studio 2013\Projects\MegaCastingWPF\MegaCastingWPF\bin\Debug\MegaCastingWPF.exe
+c:\users\thibault\documents\visual studio 2013\Projects\MegaCastingWPF\MegaCastingWPF\bin\Debug\MegaCastingWPF.pdb
+c:\users\thibault\documents\visual studio 2013\Projects\MegaCastingWPF\MegaCastingWPF\obj\Debug\MegaCastingWPF.csprojResolveAssemblyReference.cache
+c:\users\thibault\documents\visual studio 2013\Projects\MegaCastingWPF\MegaCastingWPF\obj\Debug\MainWindow.baml
+c:\users\thibault\documents\visual studio 2013\Projects\MegaCastingWPF\MegaCastingWPF\obj\Debug\MainWindow.g.cs
+c:\users\thibault\documents\visual studio 2013\Projects\MegaCastingWPF\MegaCastingWPF\obj\Debug\App.g.cs
+c:\users\thibault\documents\visual studio 2013\Projects\MegaCastingWPF\MegaCastingWPF\obj\Debug\MegaCastingWPF_MarkupCompile.cache
+c:\users\thibault\documents\visual studio 2013\Projects\MegaCastingWPF\MegaCastingWPF\obj\Debug\MegaCastingWPF.g.resources
+c:\users\thibault\documents\visual studio 2013\Projects\MegaCastingWPF\MegaCastingWPF\obj\Debug\MegaCastingWPF.Properties.Resources.resources
+c:\users\thibault\documents\visual studio 2013\Projects\MegaCastingWPF\MegaCastingWPF\obj\Debug\MegaCastingWPF.csproj.GenerateResource.Cache
+c:\users\thibault\documents\visual studio 2013\Projects\MegaCastingWPF\MegaCastingWPF\obj\Debug\MegaCastingWPF.exe
+c:\users\thibault\documents\visual studio 2013\Projects\MegaCastingWPF\MegaCastingWPF\obj\Debug\MegaCastingWPF.pdb
+c:\users\thibault\documents\visual studio 2013\Projects\MegaCastingWPF\MegaCastingWPF\obj\Debug\ClientsWindow.baml
+c:\users\thibault\documents\visual studio 2013\Projects\MegaCastingWPF\MegaCastingWPF\obj\Debug\ClientsWindow.g.cs
+c:\users\thibault\documents\visual studio 2013\Projects\MegaCastingWPF\MegaCastingWPF\bin\Debug\EntityFramework.dll
+c:\users\thibault\documents\visual studio 2013\Projects\MegaCastingWPF\MegaCastingWPF\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\thibault\documents\visual studio 2013\Projects\MegaCastingWPF\MegaCastingWPF\bin\Debug\MegaCasting.DBLib.dll
+c:\users\thibault\documents\visual studio 2013\Projects\MegaCastingWPF\MegaCastingWPF\bin\Debug\MegaCasting.DBLib.pdb
+c:\users\thibault\documents\visual studio 2013\Projects\MegaCastingWPF\MegaCastingWPF\bin\Debug\EntityFramework.xml
+c:\users\thibault\documents\visual studio 2013\Projects\MegaCastingWPF\MegaCastingWPF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\thibault\Documents\Cours Thibault\2ème Année\C#\MegaCastingAjout\MegaCastingWPF\MegaCastingWPF\bin\Debug\MegaCastingWPF.exe.config
+C:\Users\thibault\Documents\Cours Thibault\2ème Année\C#\MegaCastingAjout\MegaCastingWPF\MegaCastingWPF\obj\Debug\MegaCastingWPF.exe
+C:\Users\thibault\Documents\Cours Thibault\2ème Année\C#\MegaCastingAjout\MegaCastingWPF\MegaCastingWPF\obj\Debug\MegaCastingWPF.pdb
+C:\Users\thibault\Documents\Cours Thibault\2ème Année\C#\MegaCastingAjout\MegaCastingWPF\MegaCastingWPF\bin\Debug\MegaCastingWPF.exe
+C:\Users\thibault\Documents\Cours Thibault\2ème Année\C#\MegaCastingAjout\MegaCastingWPF\MegaCastingWPF\bin\Debug\MegaCastingWPF.pdb
+C:\Users\thibault\Documents\Cours Thibault\2ème Année\C#\MegaCastingAjout\MegaCastingWPF\MegaCastingWPF\bin\Debug\EntityFramework.dll
+C:\Users\thibault\Documents\Cours Thibault\2ème Année\C#\MegaCastingAjout\MegaCastingWPF\MegaCastingWPF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\thibault\Documents\Cours Thibault\2ème Année\C#\MegaCastingAjout\MegaCastingWPF\MegaCastingWPF\bin\Debug\MegaCasting.DBLib.dll
+C:\Users\thibault\Documents\Cours Thibault\2ème Année\C#\MegaCastingAjout\MegaCastingWPF\MegaCastingWPF\bin\Debug\MegaCasting.DBLib.pdb
+C:\Users\thibault\Documents\Cours Thibault\2ème Année\C#\MegaCastingAjout\MegaCastingWPF\MegaCastingWPF\bin\Debug\EntityFramework.xml
+C:\Users\thibault\Documents\Cours Thibault\2ème Année\C#\MegaCastingAjout\MegaCastingWPF\MegaCastingWPF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\thibault\Documents\Cours Thibault\2ème Année\C#\MegaCastingAjout\MegaCastingWPF\MegaCastingWPF\obj\Debug\MegaCastingWPF.csprojResolveAssemblyReference.cache
+C:\Users\thibault\Documents\Cours Thibault\2ème Année\C#\MegaCastingAjout\MegaCastingWPF\MegaCastingWPF\obj\Debug\ClientsWindow.baml
+C:\Users\thibault\Documents\Cours Thibault\2ème Année\C#\MegaCastingAjout\MegaCastingWPF\MegaCastingWPF\obj\Debug\MainWindow.baml
+C:\Users\thibault\Documents\Cours Thibault\2ème Année\C#\MegaCastingAjout\MegaCastingWPF\MegaCastingWPF\obj\Debug\ClientsWindow.g.cs
+C:\Users\thibault\Documents\Cours Thibault\2ème Année\C#\MegaCastingAjout\MegaCastingWPF\MegaCastingWPF\obj\Debug\MainWindow.g.cs
+C:\Users\thibault\Documents\Cours Thibault\2ème Année\C#\MegaCastingAjout\MegaCastingWPF\MegaCastingWPF\obj\Debug\App.g.cs
+C:\Users\thibault\Documents\Cours Thibault\2ème Année\C#\MegaCastingAjout\MegaCastingWPF\MegaCastingWPF\obj\Debug\MegaCastingWPF_MarkupCompile.cache
+C:\Users\thibault\Documents\Cours Thibault\2ème Année\C#\MegaCastingAjout\MegaCastingWPF\MegaCastingWPF\obj\Debug\MegaCastingWPF.g.resources
+C:\Users\thibault\Documents\Cours Thibault\2ème Année\C#\MegaCastingAjout\MegaCastingWPF\MegaCastingWPF\obj\Debug\MegaCastingWPF.Properties.Resources.resources
+C:\Users\thibault\Documents\Cours Thibault\2ème Année\C#\MegaCastingAjout\MegaCastingWPF\MegaCastingWPF\obj\Debug\MegaCastingWPF.csproj.GenerateResource.Cache
+C:\Users\thibault\Documents\Cours Thibault\2ème Année\C#\MegaCastingAjout\MegaCastingWPF\MegaCastingWPF\obj\Debug\OffreCastingWindow.baml
+C:\Users\thibault\Documents\Cours Thibault\2ème Année\C#\MegaCastingAjout\MegaCastingWPF\MegaCastingWPF\obj\Debug\OffreCastingWindow.g.cs
+C:\Users\thibault\Documents\Cours Thibault\2ème Année\C#\MegaCastingAjout\MegaCastingWPF\MegaCastingWPF\obj\Debug\AjoutClientOffreWindow.baml
+C:\Users\thibault\Documents\Cours Thibault\2ème Année\C#\MegaCastingAjout\MegaCastingWPF\MegaCastingWPF\obj\Debug\AjoutClientOffreWindow.g.cs
+C:\Users\thibault\Documents\Cours Thibault\2ème Année\C#\MegaCastingAjout\MegaCastingWPF\MegaCastingWPF\obj\Debug\TypeContratWindow.baml
+C:\Users\thibault\Documents\Cours Thibault\2ème Année\C#\MegaCastingAjout\MegaCastingWPF\MegaCastingWPF\obj\Debug\TypeContratWindow.g.cs
+C:\Users\thibault\Documents\Cours Thibault\2ème Année\C#\MegaCastingAjout\MegaCastingWPF\MegaCastingWPF\obj\Debug\AjoutTypeContratOffreWindow.baml
+C:\Users\thibault\Documents\Cours Thibault\2ème Année\C#\MegaCastingAjout\MegaCastingWPF\MegaCastingWPF\obj\Debug\AjoutTypeContratOffreWindow.g.cs
+C:\Users\thibault\Documents\Cours Thibault\2ème Année\C#\MegaCastingAjout\MegaCastingWPF\MegaCastingWPF\obj\Debug\PartenaireDiffusionsWindow.baml
+C:\Users\thibault\Documents\Cours Thibault\2ème Année\C#\MegaCastingAjout\MegaCastingWPF\MegaCastingWPF\obj\Debug\PartenaireDiffusionsWindow.g.cs
+C:\Users\thibault\Documents\Cours Thibault\2ème Année\C#\MegaCastingAjout\MegaCastingWPF\MegaCastingWPF\bin\Debug\MegaCastingWPF.exe.manifest
+C:\Users\thibault\Documents\Cours Thibault\2ème Année\C#\MegaCastingAjout\MegaCastingWPF\MegaCastingWPF\bin\Debug\MegaCastingWPF.application
+C:\Users\thibault\Documents\Cours Thibault\2ème Année\C#\MegaCastingAjout\MegaCastingWPF\MegaCastingWPF\obj\Debug\MegaCastingWPF.exe.manifest
+C:\Users\thibault\Documents\Cours Thibault\2ème Année\C#\MegaCastingAjout\MegaCastingWPF\MegaCastingWPF\obj\Debug\MegaCastingWPF.application
+C:\Users\thibault\Documents\Cours Thibault\2ème Année\C#\MegaCastingAjout\MegaCastingWPF\MegaCastingWPF\obj\Debug\DomaineMetiersWindow.baml
+C:\Users\thibault\Documents\Cours Thibault\2ème Année\C#\MegaCastingAjout\MegaCastingWPF\MegaCastingWPF\obj\Debug\DomaineMetiersWindow.g.cs
+C:\Users\thibault\Documents\Cours Thibault\2ème Année\C#\MegaCastingAjout\MegaCastingWPF\MegaCastingWPF\obj\Debug\MetiersWindow.baml
+C:\Users\thibault\Documents\Cours Thibault\2ème Année\C#\MegaCastingAjout\MegaCastingWPF\MegaCastingWPF\obj\Debug\MetiersWindow.g.cs
+C:\Users\thibault\Documents\Cours Thibault\2ème Année\C#\MegaCastingAjout\MegaCastingWPF\MegaCastingWPF\obj\Debug\AjoutMetierOffreWindow.baml
+C:\Users\thibault\Documents\Cours Thibault\2ème Année\C#\MegaCastingAjout\MegaCastingWPF\MegaCastingWPF\obj\Debug\AjoutMetierOffreWindow.g.cs
+C:\Users\boishar\Downloads\AppMegaCasting\FichierSource\MegaCastingWPF\bin\Debug\MegaCastingWPF.exe.config
+C:\Users\boishar\Downloads\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\MegaCastingWPF.exe
+C:\Users\boishar\Downloads\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\MegaCastingWPF.pdb
+C:\Users\boishar\Downloads\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\MegaCastingWPF.csprojResolveAssemblyReference.cache
+C:\Users\boishar\Downloads\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\AjoutClientOffreWindow.baml
+C:\Users\boishar\Downloads\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\AjoutMetierOffreWindow.baml
+C:\Users\boishar\Downloads\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\AjoutTypeContratOffreWindow.baml
+C:\Users\boishar\Downloads\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\ClientsWindow.baml
+C:\Users\boishar\Downloads\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\DomaineMetiersWindow.baml
+C:\Users\boishar\Downloads\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\MainWindow.baml
+C:\Users\boishar\Downloads\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\MetiersWindow.baml
+C:\Users\boishar\Downloads\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\OffreCastingWindow.baml
+C:\Users\boishar\Downloads\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\PartenaireDiffusionsWindow.baml
+C:\Users\boishar\Downloads\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\TypeContratWindow.baml
+C:\Users\boishar\Downloads\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\AjoutClientOffreWindow.g.cs
+C:\Users\boishar\Downloads\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\AjoutMetierOffreWindow.g.cs
+C:\Users\boishar\Downloads\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\AjoutTypeContratOffreWindow.g.cs
+C:\Users\boishar\Downloads\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\ClientsWindow.g.cs
+C:\Users\boishar\Downloads\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\DomaineMetiersWindow.g.cs
+C:\Users\boishar\Downloads\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\MainWindow.g.cs
+C:\Users\boishar\Downloads\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\MetiersWindow.g.cs
+C:\Users\boishar\Downloads\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\OffreCastingWindow.g.cs
+C:\Users\boishar\Downloads\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\PartenaireDiffusionsWindow.g.cs
+C:\Users\boishar\Downloads\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\TypeContratWindow.g.cs
+C:\Users\boishar\Downloads\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\App.g.cs
+C:\Users\boishar\Downloads\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\MegaCastingWPF_MarkupCompile.cache
+C:\Users\boishar\Downloads\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\MegaCastingWPF.g.resources
+C:\Users\boishar\Downloads\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\MegaCastingWPF.Properties.Resources.resources
+C:\Users\boishar\Downloads\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\MegaCastingWPF.csproj.GenerateResource.Cache
+C:\Users\boishar\Downloads\AppMegaCasting\FichierSource\MegaCastingWPF\bin\Debug\MegaCastingWPF.exe.manifest
+C:\Users\boishar\Downloads\AppMegaCasting\FichierSource\MegaCastingWPF\bin\Debug\MegaCastingWPF.application
+C:\Users\boishar\Downloads\AppMegaCasting\FichierSource\MegaCastingWPF\bin\Debug\MegaCastingWPF.exe
+C:\Users\boishar\Downloads\AppMegaCasting\FichierSource\MegaCastingWPF\bin\Debug\MegaCastingWPF.pdb
+C:\Users\boishar\Downloads\AppMegaCasting\FichierSource\MegaCastingWPF\bin\Debug\EntityFramework.dll
+C:\Users\boishar\Downloads\AppMegaCasting\FichierSource\MegaCastingWPF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\boishar\Downloads\AppMegaCasting\FichierSource\MegaCastingWPF\bin\Debug\MegaCasting.DBLib.dll
+C:\Users\boishar\Downloads\AppMegaCasting\FichierSource\MegaCastingWPF\bin\Debug\MegaCasting.DBLib.pdb
+C:\Users\boishar\Downloads\AppMegaCasting\FichierSource\MegaCastingWPF\bin\Debug\EntityFramework.xml
+C:\Users\boishar\Downloads\AppMegaCasting\FichierSource\MegaCastingWPF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\boishar\Downloads\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\MegaCastingWPF.exe.manifest
+C:\Users\boishar\Downloads\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\MegaCastingWPF.application
+F:\AppMegaCasting\FichierSource\MegaCastingWPF\bin\Debug\MegaCastingWPF.exe.config
+F:\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\MegaCastingWPF.exe
+F:\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\MegaCastingWPF.pdb
+F:\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\MegaCastingWPF.csprojResolveAssemblyReference.cache
+F:\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\AjoutClientOffreWindow.baml
+F:\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\AjoutMetierOffreWindow.baml
+F:\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\AjoutTypeContratOffreWindow.baml
+F:\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\ClientsWindow.baml
+F:\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\DomaineMetiersWindow.baml
+F:\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\MainWindow.baml
+F:\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\MetiersWindow.baml
+F:\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\OffreCastingWindow.baml
+F:\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\PartenaireDiffusionsWindow.baml
+F:\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\TypeContratWindow.baml
+F:\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\AjoutClientOffreWindow.g.cs
+F:\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\AjoutMetierOffreWindow.g.cs
+F:\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\AjoutTypeContratOffreWindow.g.cs
+F:\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\ClientsWindow.g.cs
+F:\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\DomaineMetiersWindow.g.cs
+F:\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\MainWindow.g.cs
+F:\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\MetiersWindow.g.cs
+F:\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\OffreCastingWindow.g.cs
+F:\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\PartenaireDiffusionsWindow.g.cs
+F:\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\TypeContratWindow.g.cs
+F:\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\App.g.cs
+F:\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\MegaCastingWPF_MarkupCompile.cache
+F:\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\MegaCastingWPF.g.resources
+F:\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\MegaCastingWPF.Properties.Resources.resources
+F:\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\MegaCastingWPF.csproj.GenerateResource.Cache
+F:\AppMegaCasting\FichierSource\MegaCastingWPF\bin\Debug\MegaCastingWPF.exe.manifest
+F:\AppMegaCasting\FichierSource\MegaCastingWPF\bin\Debug\MegaCastingWPF.application
+F:\AppMegaCasting\FichierSource\MegaCastingWPF\bin\Debug\MegaCastingWPF.exe
+F:\AppMegaCasting\FichierSource\MegaCastingWPF\bin\Debug\MegaCastingWPF.pdb
+F:\AppMegaCasting\FichierSource\MegaCastingWPF\bin\Debug\EntityFramework.dll
+F:\AppMegaCasting\FichierSource\MegaCastingWPF\bin\Debug\EntityFramework.SqlServer.dll
+F:\AppMegaCasting\FichierSource\MegaCastingWPF\bin\Debug\MegaCasting.DBLib.dll
+F:\AppMegaCasting\FichierSource\MegaCastingWPF\bin\Debug\MegaCasting.DBLib.pdb
+F:\AppMegaCasting\FichierSource\MegaCastingWPF\bin\Debug\EntityFramework.xml
+F:\AppMegaCasting\FichierSource\MegaCastingWPF\bin\Debug\EntityFramework.SqlServer.xml
+F:\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\MegaCastingWPF.exe.manifest
+F:\AppMegaCasting\FichierSource\MegaCastingWPF\obj\Debug\MegaCastingWPF.application
+C:\Users\SJEGOU\Desktop\MegaProduction\MegaCastingWPF\bin\Debug\MegaCastingWPF.exe.config
+C:\Users\SJEGOU\Desktop\MegaProduction\MegaCastingWPF\obj\Debug\MegaCastingWPF.exe
+C:\Users\SJEGOU\Desktop\MegaProduction\MegaCastingWPF\obj\Debug\MegaCastingWPF.pdb
+C:\Users\SJEGOU\Desktop\MegaProduction\MegaCastingWPF\bin\Debug\MegaCastingWPF.exe.manifest
+C:\Users\SJEGOU\Desktop\MegaProduction\MegaCastingWPF\bin\Debug\MegaCastingWPF.application
+C:\Users\SJEGOU\Desktop\MegaProduction\MegaCastingWPF\bin\Debug\MegaCastingWPF.exe
+C:\Users\SJEGOU\Desktop\MegaProduction\MegaCastingWPF\bin\Debug\MegaCastingWPF.pdb
+C:\Users\SJEGOU\Desktop\MegaProduction\MegaCastingWPF\bin\Debug\EntityFramework.dll
+C:\Users\SJEGOU\Desktop\MegaProduction\MegaCastingWPF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\SJEGOU\Desktop\MegaProduction\MegaCastingWPF\bin\Debug\MegaCasting.DBLib.dll
+C:\Users\SJEGOU\Desktop\MegaProduction\MegaCastingWPF\bin\Debug\MegaCasting.DBLib.pdb
+C:\Users\SJEGOU\Desktop\MegaProduction\MegaCastingWPF\bin\Debug\EntityFramework.xml
+C:\Users\SJEGOU\Desktop\MegaProduction\MegaCastingWPF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\SJEGOU\Desktop\MegaProduction\MegaCastingWPF\obj\Debug\MegaCastingWPF.csprojResolveAssemblyReference.cache
+C:\Users\SJEGOU\Desktop\MegaProduction\MegaCastingWPF\obj\Debug\AjoutClientOffreWindow.baml
+C:\Users\SJEGOU\Desktop\MegaProduction\MegaCastingWPF\obj\Debug\AjoutMetierOffreWindow.baml
+C:\Users\SJEGOU\Desktop\MegaProduction\MegaCastingWPF\obj\Debug\AjoutTypeContratOffreWindow.baml
+C:\Users\SJEGOU\Desktop\MegaProduction\MegaCastingWPF\obj\Debug\ClientsWindow.baml
+C:\Users\SJEGOU\Desktop\MegaProduction\MegaCastingWPF\obj\Debug\DomaineMetiersWindow.baml
+C:\Users\SJEGOU\Desktop\MegaProduction\MegaCastingWPF\obj\Debug\MainWindow.baml
+C:\Users\SJEGOU\Desktop\MegaProduction\MegaCastingWPF\obj\Debug\MetiersWindow.baml
+C:\Users\SJEGOU\Desktop\MegaProduction\MegaCastingWPF\obj\Debug\OffreCastingWindow.baml
+C:\Users\SJEGOU\Desktop\MegaProduction\MegaCastingWPF\obj\Debug\PartenaireDiffusionsWindow.baml
+C:\Users\SJEGOU\Desktop\MegaProduction\MegaCastingWPF\obj\Debug\TypeContratWindow.baml
+C:\Users\SJEGOU\Desktop\MegaProduction\MegaCastingWPF\obj\Debug\AjoutClientOffreWindow.g.cs
+C:\Users\SJEGOU\Desktop\MegaProduction\MegaCastingWPF\obj\Debug\AjoutMetierOffreWindow.g.cs
+C:\Users\SJEGOU\Desktop\MegaProduction\MegaCastingWPF\obj\Debug\AjoutTypeContratOffreWindow.g.cs
+C:\Users\SJEGOU\Desktop\MegaProduction\MegaCastingWPF\obj\Debug\ClientsWindow.g.cs
+C:\Users\SJEGOU\Desktop\MegaProduction\MegaCastingWPF\obj\Debug\DomaineMetiersWindow.g.cs
+C:\Users\SJEGOU\Desktop\MegaProduction\MegaCastingWPF\obj\Debug\MainWindow.g.cs
+C:\Users\SJEGOU\Desktop\MegaProduction\MegaCastingWPF\obj\Debug\MetiersWindow.g.cs
+C:\Users\SJEGOU\Desktop\MegaProduction\MegaCastingWPF\obj\Debug\OffreCastingWindow.g.cs
+C:\Users\SJEGOU\Desktop\MegaProduction\MegaCastingWPF\obj\Debug\PartenaireDiffusionsWindow.g.cs
+C:\Users\SJEGOU\Desktop\MegaProduction\MegaCastingWPF\obj\Debug\TypeContratWindow.g.cs
+C:\Users\SJEGOU\Desktop\MegaProduction\MegaCastingWPF\obj\Debug\App.g.cs
+C:\Users\SJEGOU\Desktop\MegaProduction\MegaCastingWPF\obj\Debug\MegaCastingWPF_MarkupCompile.cache
+C:\Users\SJEGOU\Desktop\MegaProduction\MegaCastingWPF\obj\Debug\MegaCastingWPF.g.resources
+C:\Users\SJEGOU\Desktop\MegaProduction\MegaCastingWPF\obj\Debug\MegaCastingWPF.Properties.Resources.resources
+C:\Users\SJEGOU\Desktop\MegaProduction\MegaCastingWPF\obj\Debug\MegaCastingWPF.csproj.GenerateResource.Cache
+C:\Users\SJEGOU\Desktop\MegaProduction\MegaCastingWPF\obj\Debug\MegaCastingWPF.exe.manifest
+C:\Users\SJEGOU\Desktop\MegaProduction\MegaCastingWPF\obj\Debug\MegaCastingWPF.application

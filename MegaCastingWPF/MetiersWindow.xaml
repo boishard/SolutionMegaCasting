@@ -1,0 +1,45 @@
+﻿<Window x:Class="MegaCastingWPF.MetiersWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MetiersWindow" Height="300" Width="300">
+    <Grid>
+        <!-- Fenetre pour ajouter un metier -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+
+
+        <Grid Grid.Row="0" Margin="10" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="*"/>
+
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Label Grid.Column="0" Grid.Row="0">Libellé du métier :</Label>
+            <TextBox Grid.Column="1" Grid.Row="0" Text="{Binding metier.Libelle}" Margin="2"/>
+
+            <Label Grid.Column="0" Grid.Row="1">Description du métier :</Label>
+            <TextBox Grid.Column="1" Grid.Row="1" Text="{Binding metier.DescriptionMetier}" Margin="2"/>
+
+        </Grid>
+
+        <Border  Grid.Row="1">
+            <Button Padding="5" Margin="2" x:Name="btn_valider" Click="Validate_click">Ajouter le métier</Button>
+        </Border>
+
+        <Border  Grid.Row="2">
+            <Button Padding="5" Margin="2" x:Name="btn_ajouter" Click="Annuler_Click">Annuler</Button>
+        </Border>
+
+
+    </Grid>
+</Window>

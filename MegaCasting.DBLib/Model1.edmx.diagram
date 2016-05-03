@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2122cde707044df3885f62a09f27da14" Name="Diagram1">
+        <EntityTypeShape EntityType="MegaProductionModel.Client" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MegaProductionModel.DomaineMetier" Width="1.5" PointX="0.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MegaProductionModel.Metier" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MegaProductionModel.OffreCasting" Width="1.5" PointX="5.25" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MegaProductionModel.PartenaireDiffusion" Width="1.5" PointX="5.75" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MegaProductionModel.TypeContrat" Width="1.5" PointX="3" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MegaProductionModel.Utilisateur" Width="1.5" PointX="7.75" PointY="2.5" IsExpanded="true" />
+        <AssociationConnector Association="MegaProductionModel.FK_OffreCasting_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="MegaProductionModel.FK_Metier_DomaineMetier" ManuallyRouted="false" />
+        <AssociationConnector Association="MegaProductionModel.FK_OffreCasting_Metier" ManuallyRouted="false" />
+        <AssociationConnector Association="MegaProductionModel.FK_OffreCasting_TypeContrat" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
